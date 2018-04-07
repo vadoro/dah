@@ -3,22 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
   <title>Hallym Digital Humanities 디지털인문예술 - 프로젝트</title>
-  <style>
-    a {
-      color:orange;
-      text-decoration: none;
-    }
-    body {
-      background-color: cornflowerblue;
-    }
-  </style>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117115249-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-117115249-1');
@@ -30,13 +25,17 @@
   <h1><a href="index.html">디지털인문학(Digital Humanities) 수업의 성과들</a></h1>
   <h3><a href="https://sites.google.com/view/dah-hallym" target="_blank"
     title="DAH 웹사이트">디지털인문예술(DAH) 융합전공</a></h3>
-  <ul style="margin-bottom: 50px;">
-    <li><a href="data.html" target="_blank">데이터분석</a></li>
-    <li><a href="visualization.html" target="_blank">시각화</a></li>
-    <li><a href="project.html" target="_blank" style="color:red;text-decoration:underline">프로젝트</a></li>
-  </ul>
-  <h2><a href="project.html" target="_blank">프로젝트</a></h2>
-  <p>학생들이 진행한 학기말 프로젝트</p><br>
+  <div id="grid">
+    <ul style="margin-bottom: 50px;">
+      <li><a href="data.html" target="_blank">데이터분석</a></li>
+      <li><a href="visualization.html" target="_blank">시각화</a></li>
+      <li><a href="project.html" target="_blank" class="c">프로젝트</a></li>
+    </ul>
+    <div id="article">
+      <h2><a href="project.html" target="_blank" class="c" id="name">프로젝트</a></h2>
+      <p>학생들이 진행한 학기말 프로젝트</p><br>
+    </div>
+  </div>
 </body>
 
 </html>
