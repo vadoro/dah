@@ -3,6 +3,11 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #a3d4d2;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 h1 {
   font-size: 35px;
   text-align: center;
@@ -10,10 +15,6 @@ h1 {
   border-bottom: gray solid 5px;
   padding: 50px;
   margin-bottom: 50px;
-}
-
-body {
-  background-color: #a3d4d2;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
   display: grid;
   grid-template-columns: 150px 1fr;
 }
+
 .c {
   color: #ec5312;
 }
